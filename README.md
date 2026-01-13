@@ -1,5 +1,5 @@
 # UAS-Maulana-Ardhian-Ismail
-Projek ini adalah sebuah Landing Page Pendaftaran Seminar UI/UX yang bertujuan untuk memfasilitasi pendaftaran peserta secara digital. Aplikasi web ini memiliki antarmuka yang bersih dengan informasi acara seperti tanggal (20 Januari 2026) dan lokasi (Aula STIKOM ELRAHMA). Fitur utamanya mencakup formulir pendaftaran dengan validasi data di sisi klien dan sistem tampilan daftar peserta yang diperbarui secara otomatis menggunakan JavaScript. Secara desain, projek ini sudah responsif, di mana tata letak akan berubah menjadi dua kolom pada layar besar (minimal 992px) menggunakan CSS Grid.
+Projek ini adalah sebuah Landing Page Pendaftaran Seminar UI/UX yang bertujuan untuk memfasilitasi pendaftaran peserta secara digital. Aplikasi web ini memiliki antarmuka yang bersih dengan informasi acara seperti tanggal (20 Januari 2026) dan lokasi (Aula STIKOM ELRAHMA). Fitur utamanya mencakup formulir pendaftaran dengan validasi data di sisi klien dan sistem tampilan daftar peserta yang diperbarui secara otomatis menggunakan JavaScript. Secara desain, projek ini sudah responsif, di mana tata letak akan berubah menjadi dua kolom pada layar besar 
 
 Alur Logika / Algoritma
 Berikut adalah tahapan logika yang dijalankan oleh aplikasi saat pengguna berinteraksi dengan formulir:
