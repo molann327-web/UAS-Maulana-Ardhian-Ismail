@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Seminar UI/UX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="landing-page">
+        <h1> Creativity in UI/UX</h1> <p>Belajar, berkreasi, dan berkolaborasi dalam dunia desain.</p> <div class="event-info">
+            <span><strong>Tanggal:</strong> 20 Januari 2026</span> <span><strong>Lokasi:</strong> Aula STIKOM ELRAHMA</span> </div>
+    </header>
+
+    <main class="Formulir">
+        <section class="registration-section">
+            <h2>Formulir Pendaftaran</h2> <form id="regisform">
+                <div class="form-grup">
+                    <label>Nama Lengkap:</label>
+                    <input type="text" id="nama" placeholder="Masukkan nama lengkap"> </div>
+                <div class="form-grup">
+                    <label>Email:</label>
+                    <input type="text" id="email" placeholder="asepganteng@gmail.com"> </div>
+                <div class="form-grup">
+                    <label>Nomor HP:</label>
+                    <input type="text" id="hp" placeholder="Hanya angka"> </div>
+                <div class="form-grup">
+                    <label>Kategori Peserta:</label>
+                    <select id="kategori">
+                        <option value="Mahasiswa">Mahasiswa</option> <option value="Umum">Umum</option> </select>
+                </div>
+                <button type="submit" id="kirim">Daftar Sekarang</button>
+            </form>
+            <p id="pesan"></p> </section>
+
+        <section class="data-section">
+            <h2>Daftar Peserta (<span id="dataikut">0</span>/3)</h2> 
+                <table id="tabelikut">
+                    <thead>
+                        <tr>
+                            <th>Nama</th>
+                            <th>Email</th>
+                            <th>No HP</th>
+                            <th>Kategori</th>
+                        </tr>
+                    </thead>
+                    <tbody id="listikut">
+                        </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
